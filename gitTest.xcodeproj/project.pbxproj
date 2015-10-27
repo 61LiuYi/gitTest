@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE621A0A1BDF04B30007F024 /* LQJHeadNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE621A091BDF04B30007F024 /* LQJHeadNewsViewController.m */; };
+		AE621A0E1BDF04DF0007F024 /* LQJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE621A0C1BDF04DF0007F024 /* LQJTableViewCell.m */; };
+		AE621A0F1BDF04DF0007F024 /* LQJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE621A0D1BDF04DF0007F024 /* LQJTableViewCell.xib */; };
+		AE621A121BDF05300007F024 /* LQJHeadNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE621A111BDF05300007F024 /* LQJHeadNewsModel.m */; };
 		AEA7D5251BDE441500BF6C8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA7D5241BDE441500BF6C8A /* main.m */; };
 		AEA7D5281BDE441500BF6C8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA7D5271BDE441500BF6C8A /* AppDelegate.m */; };
-		AEA7D52B1BDE441500BF6C8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA7D52A1BDE441500BF6C8A /* ViewController.m */; };
 		AEA7D52E1BDE441500BF6C8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA7D52C1BDE441500BF6C8A /* Main.storyboard */; };
 		AEA7D5311BDE441500BF6C8A /* gitTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEA7D52F1BDE441500BF6C8A /* gitTest.xcdatamodeld */; };
 		AEA7D5331BDE441500BF6C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA7D5321BDE441500BF6C8A /* Assets.xcassets */; };
@@ -36,12 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE621A081BDF04B30007F024 /* LQJHeadNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQJHeadNewsViewController.h; sourceTree = "<group>"; };
+		AE621A091BDF04B30007F024 /* LQJHeadNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQJHeadNewsViewController.m; sourceTree = "<group>"; };
+		AE621A0B1BDF04DF0007F024 /* LQJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQJTableViewCell.h; sourceTree = "<group>"; };
+		AE621A0C1BDF04DF0007F024 /* LQJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQJTableViewCell.m; sourceTree = "<group>"; };
+		AE621A0D1BDF04DF0007F024 /* LQJTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQJTableViewCell.xib; sourceTree = "<group>"; };
+		AE621A101BDF05300007F024 /* LQJHeadNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQJHeadNewsModel.h; sourceTree = "<group>"; };
+		AE621A111BDF05300007F024 /* LQJHeadNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQJHeadNewsModel.m; sourceTree = "<group>"; };
 		AEA7D5201BDE441500BF6C8A /* gitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA7D5241BDE441500BF6C8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEA7D5261BDE441500BF6C8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEA7D5271BDE441500BF6C8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AEA7D5291BDE441500BF6C8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AEA7D52A1BDE441500BF6C8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AEA7D52D1BDE441500BF6C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEA7D5301BDE441500BF6C8A /* gitTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gitTest.xcdatamodel; sourceTree = "<group>"; };
 		AEA7D5321BDE441500BF6C8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,16 +111,21 @@
 		AEA7D5221BDE441500BF6C8A /* gitTest */ = {
 			isa = PBXGroup;
 			children = (
+				AE621A0B1BDF04DF0007F024 /* LQJTableViewCell.h */,
+				AE621A0C1BDF04DF0007F024 /* LQJTableViewCell.m */,
+				AE621A0D1BDF04DF0007F024 /* LQJTableViewCell.xib */,
+				AE621A081BDF04B30007F024 /* LQJHeadNewsViewController.h */,
+				AE621A091BDF04B30007F024 /* LQJHeadNewsViewController.m */,
 				AEA7D5261BDE441500BF6C8A /* AppDelegate.h */,
 				AEA7D5271BDE441500BF6C8A /* AppDelegate.m */,
-				AEA7D5291BDE441500BF6C8A /* ViewController.h */,
-				AEA7D52A1BDE441500BF6C8A /* ViewController.m */,
 				AEA7D52C1BDE441500BF6C8A /* Main.storyboard */,
 				AEA7D5321BDE441500BF6C8A /* Assets.xcassets */,
 				AEA7D5341BDE441500BF6C8A /* LaunchScreen.storyboard */,
 				AEA7D5371BDE441500BF6C8A /* Info.plist */,
 				AEA7D52F1BDE441500BF6C8A /* gitTest.xcdatamodeld */,
 				AEA7D5231BDE441500BF6C8A /* Supporting Files */,
+				AE621A101BDF05300007F024 /* LQJHeadNewsModel.h */,
+				AE621A111BDF05300007F024 /* LQJHeadNewsModel.m */,
 			);
 			path = gitTest;
 			sourceTree = "<group>";
@@ -249,6 +262,7 @@
 				AEA7D5361BDE441500BF6C8A /* LaunchScreen.storyboard in Resources */,
 				AEA7D5331BDE441500BF6C8A /* Assets.xcassets in Resources */,
 				AEA7D52E1BDE441500BF6C8A /* Main.storyboard in Resources */,
+				AE621A0F1BDF04DF0007F024 /* LQJTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEA7D5311BDE441500BF6C8A /* gitTest.xcdatamodeld in Sources */,
-				AEA7D52B1BDE441500BF6C8A /* ViewController.m in Sources */,
+				AE621A121BDF05300007F024 /* LQJHeadNewsModel.m in Sources */,
+				AE621A0E1BDF04DF0007F024 /* LQJTableViewCell.m in Sources */,
 				AEA7D5281BDE441500BF6C8A /* AppDelegate.m in Sources */,
+				AE621A0A1BDF04B30007F024 /* LQJHeadNewsViewController.m in Sources */,
 				AEA7D5251BDE441500BF6C8A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +516,7 @@
 				AEA7D5521BDE441600BF6C8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEA7D5531BDE441600BF6C8A /* Build configuration list for PBXNativeTarget "gitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +525,7 @@
 				AEA7D5551BDE441600BF6C8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEA7D5561BDE441600BF6C8A /* Build configuration list for PBXNativeTarget "gitTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +534,7 @@
 				AEA7D5581BDE441600BF6C8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

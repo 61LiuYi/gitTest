@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LQJHeadNewsViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //LQJHeadNewsViewController * rootVC=[[LQJHeadNewsViewController alloc]init];
+    
+    
+    
     // Override point for customization after application launch.
     return YES;
 }
